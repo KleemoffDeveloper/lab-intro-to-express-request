@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon App</title>
+    <script src="index.js" type="module"></script>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Orbitron&family=Righteous&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            height: 100vh;
+        }
+
+        body {
+            background: url('https://www.pixelstalk.net/wp-content/uploads/images6/Pokemon-Wallpaper-4K-HD-Free-download.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        header, main {
+            display: grid;
+            grid-auto-flow: row;
+            gap: 50px;
+            padding: 15px;
+            place-items: center;
+            grid-auto-rows: fit-content;
+        }
+
+        header h1 {
+            font-size: fit-content;
+            font-family: Righteous;
+        }
+
+        header h1, p {
+            color: white;
+            text-shadow: 1px 1px 10px black;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 16px;
+        }
+
+        p {
+            font-family: Changa;
+        }
+
+        a {
+            color: yellow;
+            text-shadow:1px 1px 10px orange;
+        }
+
+        .pokemon {
+            width: 150px;
+            height: 150px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 8px;
+            color: white;
+            text-shadow: 1px 1px 10px black;
+            display: grid;
+            place-items: center;
+        }
+
+        .pokemon img {
+            width: 50px;
+        }
+
+        #pokemon-list {
+            display: grid;
+            grid-auto-flow: row;  
+            overflow-y: scroll;
+            place-items: center;
+            gap: 15px;
+            height: 500px;
+        }
+    </style>
+
+    <header>
+        <h1>Pokemon App by <a href="https://github.com/KleemoffDeveloper" target="_blank">Silis</a></h1>
+        <p>
+            Welcome to this Pokemon app thing. The readme kept
+            making me add features so I guess I have to do this
+            now... Anyways, look at <a href="https://github.com/KleemoffDeveloper/lab-intro-to-express-request" target="_blank">my readme</a> for instructions
+            on how to run this app.
+        </p>
+    </header>
+
+    <ul id="pokemon-list">
+        <!-- POKEMON GO HERE -->
+    </ul>
+</body>
+</html>
