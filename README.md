@@ -11,3 +11,8 @@ This app has a 2 front-end files: `/index.html` and `/index.js`, as well as 2 ba
 <center>
     <img src='./images/app-screenshot2.png'/>
 </center>
+
+# Routes
+- All Pokemon data: `/pokemon`
+- Pokemon data by index: `/pokemon/index/:indexOfArray`
+- Pokemon data by name: `/pokemon/search?name="xxxx"`
